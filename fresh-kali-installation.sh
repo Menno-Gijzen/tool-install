@@ -6,7 +6,6 @@ sudo apt full-upgrade -y &&
 
 # Instalation for regular dipendencies
 sudo apt install python3-pip -y &&
-sudo apt-get install python3.6 &&
 
 # making tools dir and cding there
 cd ~ &&
