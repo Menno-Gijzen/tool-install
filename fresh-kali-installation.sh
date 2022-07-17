@@ -38,13 +38,13 @@ git clone https://github.com/palahsu/DDoS-Ripper.git &&
 # 007- the bond
 git clone https://github.com/Deadshot0x7/007-TheBond &&
 cd 007-TheBond &&
-pip install -r requirements.txt &&
+sudo pip install -r requirements.txt &&
 cd ~/tools &&
 
 # onion search
 git clone https://github.com/megadose/OnionSearch.git &&
 cd OnionSearch/ && 
-python3 setup.py install &&
+sudo python3 setup.py install &&
 cd ~/tools && 
 
 # mr. sherlock
