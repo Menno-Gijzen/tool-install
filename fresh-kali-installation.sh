@@ -47,12 +47,6 @@ cd OnionSearch/ &&
 sudo python3 setup.py install &&
 cd ~/tools && 
 
-# mr. sherlock
-git clone https://github.com/Lucksi/Mr.Holmes &&
-cd Mr.Holmes &&
-sudo chmod +x install.sh &&
-sudo ./install.sh &&
-
 # da profiler
 git clone https://github.com/TheRealDalunacrobate/DaProfiler.git && 
 cd DaProfiler && 
