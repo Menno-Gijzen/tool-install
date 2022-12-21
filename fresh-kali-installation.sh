@@ -91,11 +91,6 @@ git clone https://github.com/Deadshot0x7/007-TheBond &&
 cd 007-TheBond &&
 sudo pip install -r requirements.txt &&
 
-# onion search
-git clone https://github.com/megadose/OnionSearch.git &&
-cd OnionSearch/ && 
-sudo python3 setup.py install &&
-
 # ------------------------------------------------------------------ create passwords folder ------------------------------------------------------------------ 
 cd ~/tools &&
 mkdir passwords &&
