@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# ------------------------------------------------------------------ Switch to root------------------------------------------------------------------ 
-sudo su &&
-
 # Updating the system
 sudo apt update &&
 sudo apt full-upgrade -y &&
