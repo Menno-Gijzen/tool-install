@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 # Updating the system
 sudo apt update &&
 sudo apt full-upgrade -y &&
@@ -77,6 +78,7 @@ cd .. &&
 
 # shotlooter
 sudo apt install libsm6 libxext6 libxrender-dev tesseract-ocr -y &&
+git clone https://github.com/utkusen/shotlooter.git &&
 cd shotlooter &&
 pip3 install -r requirements.txt  &&
 cd .. &&
