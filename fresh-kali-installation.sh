@@ -1,6 +1,7 @@
 #!/bin/sh
 
-
+# go to home folder (~)
+cd ~ &&
 # Updating the system
 sudo apt update &&
 sudo apt full-upgrade -y &&
@@ -121,6 +122,8 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update &&
 sudo apt install brave-browser &&
 
+# remove the installion files 
+rm -rf ~/tool-install &&
 
 # End message
 echo " =======Completed=======
