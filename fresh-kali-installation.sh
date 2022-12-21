@@ -30,14 +30,6 @@ git clone https://github.com/mxrch/revealin &&
 #harveter
 git clone https://github.com/laramies/theHarvester &&
 
-# da profiler
-git clone https://github.com/TheRealDalunacrobate/DaProfiler.git && 
-cd DaProfiler && 
-pip install -r requirements.txt && 
-
-# harveter
-git clone https://github.com/laramies/theHarvester &&
-
 # spiderfoot
 git clone https://github.com/smicallef/spiderfoot.git &&
 cd spiderfoot &&
