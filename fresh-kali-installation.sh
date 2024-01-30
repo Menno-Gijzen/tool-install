@@ -1,4 +1,14 @@
-#!/bin/sh
+#!/bin/bash
+
+# Eerste deel: Basisgereedschappen installeren
+echo "Installeren van basisgereedschappen..."
+sudo apt-get update
+sudo apt-get install tmux python3 python3-pip git wget htop openssh-client openssh-server -y
+
+# Vraag de gebruiker of aanvullende tools geïnstalleerd moeten worden
+read -p "Wil je additionele tools installeren? (y/n): " answer
+if [ "$answer" != "${answer#[Yy]}" ]; then
+    # Tweede deel: Additionele tools installeren
 
 # go to home folder (~)
 cd ~ &&
@@ -125,6 +135,11 @@ sudo apt install brave-browser &&
 # remove the installion files 
 rm -rf ~/tool-install &&
 
-# End message
-echo " =======Completed=======
-     everything has been installed"
+    # Eindbericht
+    echo " =======Voltooid======= Alle additionele tools zijn geïnstalleerd"
+else
+    echo "Additionele tools zijn overgeslagen."
+fi
+
+# Eindbericht voor het hele script
+echo "Script voltooid."
