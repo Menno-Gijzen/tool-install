@@ -110,7 +110,7 @@ git clone https://github.com/palahsu/DDoS-Ripper.git &&
 # ------------------------------------------------------------------  End of tool instalation ------------------------------------------------------------------ 
 
 # Downloading bookmarks
-cd ~/Desktop &&
+cd ~/ &&
 git clone https://github.com/mymono1999/sec-bookmarks &&
 cd ~ &&
 
